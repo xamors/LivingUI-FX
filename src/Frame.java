@@ -18,7 +18,7 @@ public class Frame extends Application {
     @Override
     public void start(Stage newStage) throws Exception {
             layout = new GridPane();
-            Scene scene = new Scene(layout, 1920, 1080);
+            Scene scene = new Scene(layout, 1280, 755);
             newStage = new Stage();
             newStage.setTitle("LivingUI");
             Functionality addCon = new Functionality();
